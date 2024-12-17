@@ -105,7 +105,6 @@
             "value": "5"
         },
         "jerk_travel_enabled": { "value": "True" },
-        "nominal_layer_height": { "value": "min(min(extruderValues('machine_nozzle_size')) / 2, 0.2)" },
         "layer_height": { "value": "round(nominal_layer_height * material_shrinkage_percentage_z / 100, 5)" },
         "machine_acceleration": { "default_value": 3000 },
         "machine_depth": { "default_value": 240 },
@@ -165,6 +164,7 @@
         "material_print_temperature_layer_0": { "maximum_value": "320" },
         "material_shrinkage_percentage": { "enabled": true },
         "multiple_mesh_overlap": { "value": "0" },
+        "nominal_layer_height": { "value": "min(min(extruderValues('machine_nozzle_size')) / 2, 0.2)" },
         "optimize_wall_printing_order": { "value": "True" },
         "prime_blob_enable":
         {
