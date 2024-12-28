@@ -1512,6 +1512,7 @@
                             {
                                 "lines": "Lines",
                                 "concentric": "Concentric",
+                                "hilbert": "Hilbert Curve",
                                 "zigzag": "Zig Zag"
                             },
                             "default_value": "lines",
@@ -1655,7 +1656,8 @@
                     {
                         "lines": "Lines",
                         "concentric": "Concentric",
-                        "zigzag": "Zig Zag"
+                        "zigzag": "Zig Zag",
+                        "hilbert": "Hilbert Curve"
                     },
                     "default_value": "lines",
                     "enabled": "top_layers > 0 or bottom_layers > 0",
@@ -1671,7 +1673,8 @@
                     {
                         "lines": "Lines",
                         "concentric": "Concentric",
-                        "zigzag": "Zig Zag"
+                        "zigzag": "Zig Zag",
+                        "hilbert": "Hilbert Curve"
                     },
                     "default_value": "lines",
                     "enabled": "top_layers > 0 or bottom_layers > 0",
@@ -1785,7 +1788,8 @@
                     "options":
                     {
                         "concentric": "Concentric",
-                        "zigzag": "Zig Zag"
+                        "zigzag": "Zig Zag",
+                        "hilbert": "Hilbert Curve"
                     },
                     "default_value": "zigzag",
                     "enabled": "ironing_enabled",
@@ -2103,7 +2107,8 @@
                         "cross": "Cross",
                         "cross_3d": "Cross 3D",
                         "gyroid": "Gyroid",
-                        "lightning": "Lightning"
+                        "lightning": "Lightning",
+                        "hilbert": "Hilbert Curve"
                     },
                     "default_value": "grid",
                     "enabled": "infill_line_distance > 0",
@@ -2118,7 +2123,7 @@
                     "type": "bool",
                     "default_value": false,
                     "value": "infill_pattern == 'cross' or infill_pattern == 'cross_3d'",
-                    "enabled": "infill_pattern == 'lines' or infill_pattern == 'grid' or infill_pattern == 'triangles' or infill_pattern == 'trihexagon' or infill_pattern == 'cubic' or infill_pattern == 'tetrahedral' or infill_pattern == 'quarter_cubic' or infill_pattern == 'cross' or infill_pattern == 'cross_3d' or infill_pattern == 'gyroid'",
+                    "' or infill_pattern == 'triangles' or infill_pattern == 'trihexagon' or infill_pattern == 'cubic' or infill_pattern == 'tetrahedral' or infill_pattern == 'quarter_cubic' or infill_pattern == 'cross' or infill_pattern == 'cross_3d' or infill_pattern == 'gyroid' or infill_pattern == 'hilbert'",
                     "limit_to_extruder": "infill_extruder_nr",
                     "settable_per_mesh": true
                 },
